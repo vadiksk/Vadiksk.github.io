@@ -1,34 +1,84 @@
-@font-face {
-    font-family: 'Caveat', cursive;
-    font-weight: normal;
-    font-style: black;
+.biglist {
+  width: 100vw; 
+  height: 100vh;
+  position:absolute;
+  background: greenyellow;
 }
-@font-face {
-    font-family: 'RussoOne-Regular';
-    src: url("fonts/RussoOne-Regular") format("truetype");
-    font-weight: normal;
-    font-style: bold;
+.onecolumn {
+  width: 33vw;
+  height: 100vh;
+  float: left;
+  position:relative;
+  background: coral;
 }
-#table-form {
-    font-family: 'RussoOne-Regular';
-    text-align: left;
+.onecolumn-img {
+  position: relative;
+  float: left;
+  width: 20vw;
+  height: 25vh;
 }
-.table {
-    font-family: 'Caveat', cursive;
-    text-align: left;
-    display: table;         
-    width: auto;        
-    background-color: greenyellow;         
-    border: 1px solid white;         
-    border-spacing: 7px; 
-  }
-  .table-line {
-    display:table-row;
-    width: auto;
-  }
-  .table-line-column {
-    float: left; 
-    display: table-column;         
-    width: 200px;         
-    background-color: royalblue;  
-  }
+
+.secondcolumn {
+  width: 33vw;
+  height: 100vh;
+  float: left;
+  position:relative;
+  background:blue;
+}
+.secondcolumn-onesquare {
+  width: 100px;
+  height: 100px;
+  position:relative;
+  top: 25%;
+  left: 40%;
+  border: 5px black;
+  background: red;
+}
+.onecircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+.secondcolumn-secondsquare {
+  width: 100px;
+  height: 100px;
+  position:relative;
+  top: 30%;
+  left: 40%;
+  background: red;
+}
+.secondcircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+.thierdcolumn {
+  width: 33vw;
+  height: 100vh;
+  float: left;
+  position:relative;
+  background:yellow;
+}
+.onepictures-img {
+  position: relative;
+  width: 7vw;
+  height: 7vh;
+}
+.secondpictures-img {
+position: relative;
+  width: 7vw;
+  height: 7vh;
+}
+.thierdpictures-img {
+  position: relative;
+  width: 7vw;
+  height: 7vh;
+}
