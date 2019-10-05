@@ -9,7 +9,7 @@
   height: 100vh;
   float: left;
   position:relative;
-  background: coral;
+
 }
 .onecolumn-img {
   position: relative;
@@ -23,7 +23,6 @@
   height: 100vh;
   float: left;
   position:relative;
-  background:blue;
 }
 .secondcolumn-onesquare {
   width: 100px;
@@ -33,15 +32,24 @@
   left: 40%;
   border: 5px black;
   background: red;
+  border-radius: 30px 30px;
+  box-shadow: 5px -5px 5px 3px rgb(3, 195, 243);
+  background:linear-gradient(to left,rgb(3, 214, 241), red , yellow); 
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 .onecircle {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: white;
   position: relative;
   top: 25%;
   left: 25%;
+  opacity: 0.7;
+  background: radial-gradient(circle, blue,purple, yellow,green );
 }
 .secondcolumn-secondsquare {
   width: 100px;
@@ -50,22 +58,31 @@
   top: 30%;
   left: 40%;
   background: red;
+  border-radius: 30px 30px;
+  box-shadow: -5px 5px 5px 3px rgb(3, 195, 243);
+  background:linear-gradient(to right,rgb(3, 214, 241), red , yellow);
+  
 }
+
 .secondcircle {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: white;
   position: relative;
   top: 25%;
   left: 25%;
+  opacity: 0.7;
+  background: radial-gradient(circle,green,yellow, purple, blue );
 }
 .thierdcolumn {
   width: 33vw;
   height: 100vh;
   float: left;
   position:relative;
-  background:yellow;
+
+}
+.list {
+  list-style: none;
 }
 .onepictures-img {
   position: relative;
@@ -81,4 +98,31 @@ position: relative;
   position: relative;
   width: 5vw;
   height: 7vh;
+}
+@keyframes example {
+  0% {
+      transform: translate(0px, 0px);
+      background: yellow;
+      opacity: 0.2;
+  }
+  25% {
+      transform: translate(25px, 25px);
+      background: green;
+      opacity: 0.7;
+  }
+  50% {
+      transform: translate(50px, 50px);
+      background: blue;
+      opacity: 0.8;
+  }
+  75% {
+      transform: translate(75px, 75px);
+      background: blueviolet;
+      opacity: 0.9;
+  }
+  100% {
+      transform: translate(0px, 0px);
+      background: yellow;
+      opacity: 1;
+  }
 }
