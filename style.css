@@ -36,7 +36,7 @@
   box-shadow: 5px -5px 5px 3px rgb(3, 195, 243);
   background:linear-gradient(to left,rgb(3, 214, 241), red , yellow); 
   animation-name: example;
-  animation-duration: 7s;
+  animation-duration: 10s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -62,7 +62,7 @@
   box-shadow: -5px 5px 5px 3px rgb(3, 195, 243);
   background:linear-gradient(to right,rgb(3, 214, 241), red , yellow);
   animation-name: exampl;
-  animation-duration: 7s;
+  animation-duration: 10s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
   animation-iteration-count: infinite;
